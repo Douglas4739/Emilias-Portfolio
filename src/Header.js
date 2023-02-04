@@ -3,9 +3,11 @@ import './Header.css';
 
 function Header() {
   return (
-    <> 
-    <header>Emilia's Portfolio Est. 2021</header>
-    </>
+
+    <header>
+      Emilia's Portfolio Est. 2021
+    </header>
+
    
   )
 }
