@@ -1,5 +1,11 @@
+/* @font-family: @font-face {
+    font-family: heytiny;
+    src: url(https://www.fontspace.com/hey-tiny-font-f67084);
+}; */
+
 header {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: heytiny; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: auto;
     color: rgb(162, 28, 175);
     width: 50%;
