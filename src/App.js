@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header.js';
 import Value from './Value.js';
+import Graph from './Graph.js';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Value />
+      <Graph />
     </div>
   );
 }
