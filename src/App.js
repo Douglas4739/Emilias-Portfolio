@@ -4,6 +4,7 @@ import Value from './Value.js';
 import Graph from './Graph.js';
 import Contributions from './Contributions.js';
 import About from './About.js';
+import Footer from './Footer.js';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Graph />
       <Contributions />
       <About />
+      <Footer />
     </div>
   );
 }
