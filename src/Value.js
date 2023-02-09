@@ -3,7 +3,12 @@ import './Value.css';
 
 function Value() {
   return (
-    <div className="value">Value</div>
+    <>    
+    <div className="valueContainer">      
+      <div className="value">$3,067.52</div>
+    </div>
+    </>
+
   )
 }
 
