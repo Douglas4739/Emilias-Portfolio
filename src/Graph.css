@@ -1,8 +1,14 @@
-.graph {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: auto;
+.graphContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
     size: 30px;
+}
+.graph {
+    margin: 0 auto;
+    width: 50em;
+    height: 25em;
+    border: 3px solid black;
 }

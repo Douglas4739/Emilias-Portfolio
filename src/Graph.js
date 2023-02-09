@@ -3,7 +3,13 @@ import './Graph.css';
 
 function Graph() {
   return (
-    <div className="graph">Graph</div>
+    <>
+      <div className="graphContainer">
+        <div className="graph">Graph</div>
+      </div>
+    </>
+
+    
   )
 }
 
