@@ -12,3 +12,24 @@
     height: 25em;
     border: 3px solid black;
 }
+
+@media screen and (max-width: 1621px) {
+    .graph {
+        border: 3px solid red;
+        width: 35em;
+    }
+}
+
+@media screen and (max-width: 1291px) {
+    .graph {
+        border: 3px solid black;
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .graph {
+        border: 3px solid blue;
+        width: 20em
+    }
+}
