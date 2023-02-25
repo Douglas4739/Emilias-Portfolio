@@ -5,7 +5,7 @@ function Value() {
   return (
     <>    
     <div className="valueContainer">      
-      <div className="value">$3,067.52</div>
+      <div className="value">$3,123.14</div>
     </div>
     </>
 
