@@ -1,18 +1,37 @@
 .value {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
     color: rgb(0, 0, 0);
-    width: 50%;
     border: 1px solid black;
-    padding-left: 25%;
-    padding-right: 25%;
     text-align: center;
     font-size: 4em;
-}
-
-.valueContainer{
-    background: green;
-    width: 28%;
-    display: flex;
+    padding: 20px;
     margin: 0 auto;
-}
+    max-width: 100%;
+    line-height: 1.2;
+  }
+  
+  .valueContainer {
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .value {
+      font-size: 6em;
+      line-height: 1.3;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .value {
+      font-size: 8em;
+      line-height: 1.4;
+    }
+  }
