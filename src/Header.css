@@ -9,6 +9,7 @@ header {
     text-align: center;
     display: grid;
     place-items: center; /* center the text horizontally and vertically */
+    overflow: hidden;
   }
   
   @media only screen and (min-width: 768px) {
