@@ -1,11 +1,12 @@
 import React from 'react';
+import './ContributorCard.css';
 
 function ContributorCard({ place, name, amount }) {
   return (
-    <div>
-      <p>{place}</p>
-      <p>{name}</p>
-      <p>{amount}</p>
+    <div className="contributor-card">
+      <p className="contributor-card__place">{place}</p>
+      <p className="contributor-card__name">{name}</p>
+      <p className="contributor-card__amount">${amount}</p>
     </div>
   );
 }

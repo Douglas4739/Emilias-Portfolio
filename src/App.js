@@ -13,6 +13,7 @@ function App() {
     { name: 'John Doe', amount: 100 },
     { name: 'Jane Smith', amount: 50 },
     { name: 'Bob Johnson', amount: 25 },
+    { name: 'Terra Bastion', amount: 20 },
   ];
 
   return (
