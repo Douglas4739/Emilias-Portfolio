@@ -6,11 +6,10 @@ function Contributions() {
     <>
       <div className="contributions">
         <ul className="contributors">
-          <li className="contributor">Contributor #1</li>
-          <li className="contributor">Contributor #2</li>
-          <li className="contributor">Contributor #3</li>
-          <li className="contributor">Contributor #4</li>
-          <li className="contributor">Contributor #5</li>
+          <li className="contributor">Douglas Ede: The Rest</li>
+          <li className="contributor">Grandpa and Grandma Munoz/*ask for spelling*: $500</li>
+          <li className="contributor">Grandpa and Grandma Ede: $400 </li>
+          <li className="contributor">Stephanie Munoz: $360 </li>
         </ul>
       </div>
     </>
