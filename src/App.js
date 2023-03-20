@@ -10,10 +10,10 @@ import Footer from './Footer.js';
 
 function App() {
   const contributors = [
-    { name: 'John Doe', amount: 100 },
-    { name: 'Jane Smith', amount: 50 },
-    { name: 'Bob Johnson', amount: 25 },
-    { name: 'Terra Bastion', amount: 20 },
+    { name: 'Douglas Ede', amount: 1 },
+    { name: 'Grandpa and Grandma Munoz/*ask for spelling*', amount: 500 },
+    { name: 'Grandpa and Grandma Ede', amount: 450 },
+    { name: 'Stephanie Munoz', amount: 360 },
   ];
 
   return (
@@ -21,10 +21,10 @@ function App() {
       <Header />
       <Value />
       <Graph />
-      <Contributions />
+      {/* <Contributions /> */}
       <ContributorsList contributors={contributors} />
       <About />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
