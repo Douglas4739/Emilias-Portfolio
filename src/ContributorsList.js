@@ -1,9 +1,10 @@
 import React from 'react';
 import ContributorCard from './ContributorsCard.js';
+import './ContributorsList.css';
 
 function ContributorsList({ contributors }) {
   return (
-    <div>
+    <div className='contributors-list'>
       {contributors.map((contributor, index) => (
         <ContributorCard
           key={contributor.name}

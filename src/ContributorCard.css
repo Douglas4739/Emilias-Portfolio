@@ -8,6 +8,7 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+  max-width: 1300px;
 }
 
 .contributor-card__place {
